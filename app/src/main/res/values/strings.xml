@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RPNewsApp</string>
+    <string name="sample_title">This is your Article title</string>
+    <string name="sample_text_preview">You have quite a lovely article. It would be nice if you got to read a few characters from it! I might type a few more pieces of dummy text into here to see how much I can get in there.</string>
+    <string name="sample_date">31 December 1999</string>
+    <string name="sample_author">Captain Crunch</string>
+    <string name="connection_not_found_message">No connection or articles, but here\'s a cat!</string>
+    <string name="section_name">Section</string>
+    <string name="an_error_occured">An error occured.  Here\'s a cat to make you feel better.</string>
+    <string name="no_news_but_here_is_cat">No news, but here is that cat again!</string>
+    <string name="nothing_could_load">Nothing could load, but here is a cat.</string>
+</resources>

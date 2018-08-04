@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_small"
+    android:layout_marginTop="@dimen/spacing_small"
+    android:background="@color/background_dark"
+    android:padding="@dimen/spacing_x_small">
+
+    <TextView
+        android:id="@+id/article_title"
+        style="@style/article_title_style"
+        android:layout_toLeftOf="@id/article_image"
+        android:layout_toStartOf="@id/article_image"
+        android:text="@string/sample_title" />
+
+    <TextView
+        android:id="@+id/article_author"
+        style="@style/article_data_style"
+        android:paddingTop="@dimen/spacing_small"
+        android:layout_below="@id/article_title"
+        android:text="@string/sample_author" />
+
+    <TextView
+        android:id="@+id/article_date"
+        style="@style/article_data_style"
+        android:layout_below="@id/article_author"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/sample_date" />
+
+    <TextView
+        android:id="@+id/article_section"
+        style="@style/article_data_style"
+        android:layout_alignBottom="@id/article_date"
+        android:layout_centerHorizontal="true"
+        android:text="@string/section_name" />
+
+    <ImageView
+        android:id="@+id/article_image"
+        android:layout_width="@dimen/list_height"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/spacing_small"
+        android:layout_marginRight="@dimen/spacing_small"
+        android:adjustViewBounds="true"
+        android:padding="@dimen/spacing_small"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:src="@drawable/broken_image" />
+
+</RelativeLayout>

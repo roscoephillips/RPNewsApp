@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="article_data_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/spacing_x_small</item>
+        <item name="android:paddingBottom">@dimen/spacing_x_small</item>
+        <item name="android:paddingLeft">@dimen/spacing_small</item>
+        <item name="android:paddingRight">@dimen/spacing_small</item>
+        <item name="android:textSize">@dimen/article_stats_size</item>
+    </style>
+
+    <style name="image_not_found_text_view_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_alignBottom">@id/no_news_image_view</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:padding">@dimen/spacing_small</item>
+    </style>
+
+    <style name="image_not_found_image_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/spacing_small</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_small</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="article_title_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_small</item>
+        <item name="android:layout_marginRight">@dimen/spacing_small</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textSize">@dimen/title_size</item>
+    </style>
+
+</resources>
