@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_star_rating_default"
+        android:entries="@array/star_ratings_labels"
+        android:entryValues="@array/star_ratings_values"
+        android:key="@string/settings_star_rating_key"
+        android:title="@string/settings_star_rating_label"/>
+
+    <ListPreference
+        android:defaultValue="@string/settings_media_type_default"
+        android:entries="@array/media_type_labels"
+        android:entryValues="@array/media_type_values"
+        android:key="@string/settings_media_type_key"
+        android:title="@string/settings_media_type_label"/>
+
+</PreferenceScreen>

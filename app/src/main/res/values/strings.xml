@@ -1,12 +1,50 @@
 <resources>
-    <string name="app_name">RPNewsApp</string>
+    <string name="app_name">MediaReviewsApp</string>
     <string name="sample_title">This is your Article title</string>
     <string name="sample_text_preview">You have quite a lovely article. It would be nice if you got to read a few characters from it! I might type a few more pieces of dummy text into here to see how much I can get in there.</string>
     <string name="sample_date">31 December 1999</string>
     <string name="sample_author">Captain Crunch</string>
     <string name="connection_not_found_message">No connection or articles, but here\'s a cat!</string>
     <string name="section_name">Section</string>
-    <string name="an_error_occured">An error occured.  Here\'s a cat to make you feel better.</string>
-    <string name="no_news_but_here_is_cat">No news, but here is that cat again!</string>
+    <string name="an_error_occured">An error occurred.  Here\'s a cat to make you feel better.</string>
+    <string name="no_news_but_here_is_cat">No reviews, but here is that cat again!</string>
     <string name="nothing_could_load">Nothing could load, but here is a cat.</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Article Settings</string>
+
+    <string name="settings_star_rating_label">Article\'s Star Rating</string>
+    <string name="settings_star_rating_key" translatable="false">score</string>
+    <string name="settings_star_rating_default" translatable="false">@string/settings_star_rating_5_value</string>
+
+    <string name="settings_star_rating_1_label">1 star</string>
+    <string name="settings_star_rating_1_value" translatable="false">1</string>
+    <string name="settings_star_rating_2_label">2 stars</string>
+    <string name="settings_star_rating_2_value" translatable="false">2</string>
+    <string name="settings_star_rating_3_label">3 stars</string>
+    <string name="settings_star_rating_3_value" translatable="false">3</string>
+    <string name="settings_star_rating_4_label">4 stars</string>
+    <string name="settings_star_rating_4_value" translatable="false">4</string>
+    <string name="settings_star_rating_5_label">5 stars</string>
+    <string name="settings_star_rating_5_value" translatable="false">5</string>
+
+    <string name="settings_media_type_label">Media Type</string>
+    <string name="settings_media_type_key">media_type</string>
+    <string name="settings_media_type_default" translatable="false">@string/settings_all_value</string>
+
+    <string name="settings_media_type_games_label">Games</string>
+    <string name="settings_media_type_games_value">games</string>
+
+    <string name="settings_media_type_music_label">Music</string>
+    <string name="settings_media_type_music_value">music</string>
+
+    <string name="settings_media_type_film_label">Film</string>
+    <string name="settings_media_type_film_value">film</string>
+
+    <string name="settings_media_type_stage_label">Stage</string>
+    <string name="settings_media_type_stage_value">stage</string>
+
+    <string name="settings_all_label">All</string>
+    <string name="settings_all_value">all</string>
+
 </resources>

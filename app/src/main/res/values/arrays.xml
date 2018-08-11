@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star_ratings_labels">
+        <item>@string/settings_star_rating_1_label</item>
+        <item>@string/settings_star_rating_2_label</item>
+        <item>@string/settings_star_rating_3_label</item>
+        <item>@string/settings_star_rating_4_label</item>
+        <item>@string/settings_star_rating_5_label</item>
+    </string-array>
+
+    <string-array name="star_ratings_values">
+        <item>@string/settings_star_rating_1_value</item>
+        <item>@string/settings_star_rating_2_value</item>
+        <item>@string/settings_star_rating_3_value</item>
+        <item>@string/settings_star_rating_4_value</item>
+        <item>@string/settings_star_rating_5_value</item>
+    </string-array>
+
+    <string-array name="media_type_labels">
+        <item>@string/settings_all_label</item>
+        <item>@string/settings_media_type_games_label</item>
+        <item>@string/settings_media_type_music_label</item>
+        <item>@string/settings_media_type_film_label</item>
+        <item>@string/settings_media_type_stage_label</item>
+    </string-array>
+
+    <string-array name="media_type_values">
+        <item>@string/settings_all_value</item>
+        <item>@string/settings_media_type_games_value</item>
+        <item>@string/settings_media_type_music_value</item>
+        <item>@string/settings_media_type_film_value</item>
+        <item>@string/settings_media_type_stage_value</item>
+    </string-array>
+
+</resources>
